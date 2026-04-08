@@ -1,6 +1,6 @@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import Link from "next/link"
-import { nohemi, outfitHead, outfitBody } from "./fonts/page"
+import { nohemi, outfitHead, outfitBody } from "../fonts/page"
 import { ArrowRight, LayoutDashboard, Settings } from "lucide-react"
 
 const page = () => {

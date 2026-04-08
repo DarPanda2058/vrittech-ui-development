@@ -1,5 +1,5 @@
 "use client"
-import { nohemi, outfitHead } from "@/app/fonts/page"
+import { nohemi, outfitHead } from "@/fonts/page"
 import { Card } from "@/components/ui/card"
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"

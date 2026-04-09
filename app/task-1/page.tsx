@@ -9,7 +9,17 @@ const cards = [
         image: "/Clarity.svg",
         bgColor: "#F45b5b",
         imagePosition: "left",
-        imageCoords: "-left-20 -top-[-8px]"
+        imageCoords: "-left-20 -top-[-8px]",
+        hoverData: [
+            {
+                content: "Clarity unlocked—stickers, sips, and skills all in one go!",
+                contentSize: "w-[230px]",
+                contentPosition: "bottom-[315px] left-[346px]",
+                image: "/RedHover.svg",
+                imageCoords: "-left-[-24px] -top-[6px]",
+                bgImage: "/RedCard.svg"
+            },
+        ]
     },
     {
         title: "Learn by Doing",
@@ -18,7 +28,17 @@ const cards = [
         image: "/Doing.svg",
         bgColor: "#5492a0",
         imagePosition: "right",
-        imageCoords: "-left-[-380px] -top-[-14px]"
+        imageCoords: "-left-[-380px] -top-[-14px]",
+        hoverData: [
+            {
+                content: "Clarity unlocked—stickers, sips, and skills all in one go!",
+                contentSize: "w-[230px]",
+                contentPosition: "bottom-[315px] left-[346px]",
+                image: "/RedHover.svg",
+                imageCoords: "-left-[-24px] -top-[6px]",
+                bgImage: "/RedCard.svg"
+            },
+        ]
     },
     {
         title: "Get Mentored & Supported",

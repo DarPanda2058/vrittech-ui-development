@@ -19,6 +19,7 @@ export const nohemi = localfont({
     src: "./nohemi.woff",
     variable: "--font-nohemi",
     weight: "700",
+
     display: "swap",
 })
 

@@ -152,7 +152,7 @@ export default function CustomCards({
             </Card>
             {/* hover content */}
             {hasHoverContent && currentHover && (
-                <Card className="hoverContent border-none opacity-0 w-[592px] h-[341px] !overflow-visible absolute top-0 left-0" style={{ backgroundImage: `url(${currentHover.bgImage})` }} ref={hoverRef}>
+                <Card className="hoverContent border-none opacity-0 w-[592px] h-[341px] overflow-hidden absolute top-0 left-0" style={{ backgroundImage: `url(${currentHover.bgImage})` }} ref={hoverRef}>
                     <div className={`relative ${currentHover.imageCoords} z-10`}>
                         <img src={currentHover.image} alt={title} />
                     </div>

@@ -31,13 +31,21 @@ const cards = [
         imageCoords: "-left-[-380px] -top-[-14px]",
         hoverData: [
             {
-                content: "Clarity unlocked—stickers, sips, and skills all in one go!",
-                contentSize: "w-[230px]",
-                contentPosition: "bottom-[315px] left-[346px]",
-                image: "/RedHover.svg",
-                imageCoords: "-left-[-24px] -top-[6px]",
-                bgImage: "/RedCard.svg"
+                content: "Focused faces—learning mode: ON!",
+                contentSize: "w-[241px]",
+                contentPosition: "top-[-340px] left-[80px]",
+                image: "/BlueHover1.svg",
+                imageCoords: "-left-[-60px] -top-[-10px]",
+                bgImage: "/BlueCard.svg"
             },
+            {
+                content: "Laptops, lessons, and a whole lot of growth!",
+                contentSize: "w-[380px] text-center",
+                contentPosition: "top-[-340px] left-[100px]",
+                image: "/BlueHover2.svg",
+                imageCoords: "-left-[-12px] -top-[-2px]",
+                bgImage: "/BlueCard.svg"
+            }
         ]
     },
     {

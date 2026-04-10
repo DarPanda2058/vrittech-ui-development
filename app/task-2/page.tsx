@@ -1,5 +1,7 @@
+"use client"
 import { nohemi, outfitBody } from "@/fonts/page"
 import ElasticCards from "@/components/ElasticCards"
+import { useState } from "react"
 
 const cards = [
     {
@@ -20,6 +22,7 @@ const cards = [
 ]
 
 const page = () => {
+    const [activeIndex, setActiveIndex] = useState<number | null>(null)
     return (
         <div className={`min-h-screen w-full py-16 px-6 ${outfitBody.className}`}>
             <div className="max-w-7xl mx-auto">
@@ -40,6 +43,8 @@ const page = () => {
                         <ElasticCards
                             key={index}
                             {...card}
+                            isActive={activeIndex === index}
+                            onClick={() => setActiveIndex(index)}
                         />
                     </div>
                 ))}

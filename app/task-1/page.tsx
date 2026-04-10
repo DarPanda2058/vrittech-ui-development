@@ -1,5 +1,5 @@
 import { nohemi, outfitBody } from "../../fonts/page"
-import CustomCards from "@/components/ui/CustomCards"
+import CustomCards from "@/components/CustomCards"
 
 const cards = [
     {
